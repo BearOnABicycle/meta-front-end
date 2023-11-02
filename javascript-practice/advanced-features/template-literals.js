@@ -17,3 +17,17 @@ World
 //    3)Template literals allow for expression evaluation
 
 console.log(`${1 + 1 + 1 + 1} stars!`)
+
+let noMultiLine = "No muti-line strings in ES5"
+console.log("Did you know? " + noMultiLine)
+
+let multiLine = `
+  Using ES6
+  backsticks, 
+  multi-line 
+  strings are 
+  allowed.
+`
+console.log(multiLine)
+
+
