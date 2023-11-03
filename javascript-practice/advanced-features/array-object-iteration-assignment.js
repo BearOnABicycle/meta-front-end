@@ -27,6 +27,7 @@ function birdCan() {
         console.log(`${key}: ${value}`)
   }
 }
+
 birdCan()
 // Task 3
 function animalCan() {
