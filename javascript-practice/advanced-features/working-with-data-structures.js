@@ -22,12 +22,21 @@ const object = {
   gender: 'gender'
 }
 console.log(object)
+
 //!refference advanced-features/array-object-iteration-assaignment for examples of working with objects!
 
 //Maps
 //Iterable and consisits of key-value pairs, any value can be used as a key
+let bestBoxers = new Map()
+bestBoxers.set(1, "The Champ")
+bestBoxers.set(2, "The Runner-up")
+bestBoxers.set(3, "The Thrid Place")
 
-
+console.log(bestBoxers)
+console.log(bestBoxers.get(1)) //Use .get() to access a specific value
 
 //Sets
 //Each item must be unique, adding a non unique item will result in the code not being run
+const repetitiveArray = [1, 1, 1, 2, 3, 4, 4, 5, 6, 6]
+const uniqueArray = new Set(repetitiveArray)
+console.log(uniqueArray)
